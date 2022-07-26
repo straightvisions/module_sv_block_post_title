@@ -1,6 +1,6 @@
 <?php
 	echo $_s->build_css(
-		'.wp-block-post-title',
+		'body .wp-block-post-title',
 		array_merge(
 			$module->get_setting('font')->get_css_data('font-family'),
 			$module->get_setting('font_size')->get_css_data('font-size','','px'),
@@ -13,7 +13,7 @@
 	);
 
 	echo $_s->build_css(
-		'.wp-block-post-title a',
+		'body .wp-block-post-title a',
 		array_merge(
 			$module->get_setting('font')->get_css_data('font-family'),
 			$module->get_setting('font_size')->get_css_data('font-size','','px'),
