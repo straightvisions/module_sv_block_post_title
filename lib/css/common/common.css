@@ -1,3 +1,6 @@
 body .wp-block-post-title{
 	width:100%;
 }
+body .wp-block-post-title a{
+	text-decoration:none;
+}
