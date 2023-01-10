@@ -3,4 +3,5 @@ body .wp-block-post-title{
 }
 body .wp-block-post-title a{
 	text-decoration:none;
+	max-width:100%;
 }
